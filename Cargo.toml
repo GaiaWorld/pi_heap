@@ -1,9 +1,12 @@
 [package]
 name = "pi_heap"
 version = "0.1.0"
-authors = ["suncy <suncy@gmail.com>"]
-edition = "2018"
+authors = ["suncy <530739162@qq.com>"]
+edition = "2021"
+description = "Thread unsafe heap, which supports rapid location adjustment or deletion according to the index"
+repository = "https://github.com/GaiaWorld/pi_heap.git"
+license = "MIT OR Apache-2.0"
+keywords = ["pi", "pi_heap", "heap"]
 
 [dependencies]
-pi_time = {path="../pi_time"}
-pi_dyn_uint = {path="../pi_dyn_uint"}
+pi_dyn_uint = "0.1"
